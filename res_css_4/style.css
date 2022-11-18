@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: #F5F5F5;
+}
+
+nav,
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    background-color: #88C1D9;
+    height: 56px;
+}
+
+ul li {
+    display: block;
+    width: 12em;
+    float: left;
+    margin-top: 11px;
+    font-size: 15px;
+    padding: 11px;
+    background: #88C1D9;
+    text-align: center;
+    position: relative;
+}
+
+ul li:hover {
+    background-color: #472D16;
+    color: white;
+}
+
+ul li ul {
+    position: absolute;
+    left: -999rem;
+    margin: auto;
+    margin-top: 9px;
+    background: #F5F5F5;
+}
+
+ul li ul li {
+    width: 15.4em;
+    margin: auto;
+    margin-top: 3px;
+    text-align: left;
+}
+
+ul li:hover ul {
+    left: 1px;
+}
+
+@media (max-width:1616px) {
+    ul li {
+        font-size: 14px;
+        padding: 10px;
+
+    }
+}
+
+@media (max-width:1564px) {
+    ul li {
+        font-size: 14px;
+        padding: 7px;
+    }
+}
+
+@media (max-width:1551px) {
+    ul li {
+        font-size: 13px;
+        padding: 11px;
+    }
+}
+
+@media (max-width:1455px) {
+    ul li {
+        font-size: 12px;
+        padding: 7px;
+    }
+}
+
+@media (max-width:1263px) {
+    ul li {
+        font-size: 11.5px;
+        padding: 7px;
+    }
+}
+
+@media (max-width:1215px) {
+    ul li {
+        font-size: 10.5px;
+        padding: 7px;
+    }
+}
+
+
+@media (max-width:1144px) {
+    ul li {
+
+        font-size: 10px;
+        padding: 5px;
+
+    }
+}
+
+@media (max-width:1039px) {
+    ul li {
+
+        font-size: 9.5px;
+        padding: 5px;
+
+    }
+}
+
+@media (max-width:852px) {
+    ul li {
+
+        font-size: 6px;
+        padding: 5px;
+
+    }
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    margin: auto;
+    position: relative;
+    height: 100vh;
+}
+
+.mid {
+    margin: auto;
+    height: 25%;
+    width: 94%;
+    position: absolute;
+    top: 40%;
+    right: 3%;
+}
+
+.mid table {
+    width: 70%;
+    margin: auto;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px 2px;
+}
+
+tr:nth-child(odd) {
+    background-color: #D9D9D9;
+  }
